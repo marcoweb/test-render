@@ -1,0 +1,22 @@
+@url = https://8080-marcoweb-gamessw22024-d5ncbm2tfqc.ws-us116.gitpod.io
+
+GET {{url}}/plataformas
+
+###
+POST {{url}}/plataformas
+Content-Type: application/json
+
+{
+    "nome" : "PC"
+}
+
+###
+DELETE {{url}}/plataformas/1
+
+###
+PUT {{url}}/plataformas/3
+Content-Type: application/json
+
+{
+    "nome": "Alterado"
+}

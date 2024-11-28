@@ -1,0 +1,17 @@
+@url = https://8080-marcoweb-gamessw22024-d5ncbm2tfqc.ws-us116.gitpod.io
+
+GET {{url}}/jogos
+
+###
+GET {{url}}/jogos/1
+
+###
+POST {{url}}/jogos
+Content-Type: application/json
+
+{
+    "titulo" : "Vampire Survivors",
+    "plataformas" : [
+        {"id" : 1}
+    ]
+}
